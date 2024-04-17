@@ -1,0 +1,25 @@
+/* Skills*/
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5rem;
+}
+
+.skills__item {
+  font-family: var(--font-family-raleway);
+  font-weight: var(--font-weight-semi-bold);
+  font-size: var(--font-size-38);
+  transition: var(--transition-timing);
+  user-select: none;
+}
+
+.skills__item:hover {
+  text-shadow: 0 0 2px var(--color-green);
+}
+
+.skills__duration {
+  font-family: var(--font-family-raleway);
+  font-size: var(--font-size-15);
+  margin-top: 1rem;
+}
+/* end Skills*/

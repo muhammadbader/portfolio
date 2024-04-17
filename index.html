@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Bdeir</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop muted>
+        <source src="video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label class="burger-menu" for="menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input id="menu" class="burger-menu__checkbox" type="checkbox" />
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skills" class="navigation__link navigation__skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="navigation__link navigation__contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            class="toggle__checkbox"
+            name="toggle checkbox"
+            id="toggle"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I'm A Passionate Software Developer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Muhammad Bdeir</span>, a
+            algorethim developer and ML practitioner at
+            <a href="https://flare.stream/" target="_blank" class="bio__flare"
+              >Flare</a
+            >, software developer and designer
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="#" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span>
+          </a>
+        </div>
+        <div class="bio__pic-content">
+          <img
+            src="images/personal-pic.png"
+            alt="image of muhammad bdeir"
+            class="bio__pic"
+          />
+        </div>
+      </section>
+      <section id="skills" class="skills section section--wth-bg">
+        <h2 class="h2-heading skills__header">Skills</h2>
+        <div class="skills__grid">
+          <div class="skills__list">
+            <h3 class="skills__item">HTML</h3>
+            <p class="skills__duration">8 years</p>
+          </div>
+          <div class="skills__list">
+            <h3 class="skills__item">CSS</h3>
+            <p class="skills__duration">8 years</p>
+          </div>
+          <div class="skills__list">
+            <h3 class="skills__item">Javascript</h3>
+            <p class="skills__duration">8 years</p>
+          </div>
+          <div class="skills__list">
+            <h3 class="skills__item">React</h3>
+            <p class="skills__duration">4 years</p>
+          </div>
+          <div class="skills__list">
+            <h3 class="skills__item">Redux</h3>
+            <p class="skills__duration">3 years</p>
+          </div>
+          <div class="skills__list">
+            <h3 class="skills__item">React testing library</h3>
+            <p class="skills__duration">1 years</p>
+          </div>
+        </div>
+      </section>
+      <section id="media" class="media section">
+        <video class="media__video" poster="images/thumbnail.jpg" controls>
+          <source src="video.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section class="projects section" id="projects">
+        <h2 class="h2-heading">MY FEATURES <br />PROJECTS</h2>
+        <div class="projects__quran-tab">
+          <img
+            src="images/project-1.jpg"
+            alt="quran tab extension"
+            class="projects__img"
+          />
+          <div class="projects__quran-tab-container">
+            <h3 class="h3-heading projects__quran-tab__title">
+              Quran Tab <br />Extension
+            </h3>
+            <p class="projects__quran-tab__info">
+              Quran Tab is an islamic new tab page that will keep you inspired
+              bt a verse from the Quran every time you open a new tab that helpe
+              you achieve your "khatma" and keeps you connected with the words
+              of Allah.
+            </p>
+          </div>
+
+          <div class="projects__quran-tab-container">
+            <h3 class="h3-heading projects__quran-tab__title">
+              Quran Station <br />Extension
+            </h3>
+            <p class="projects__quran-tab__info">
+              Quran Tab is an islamic new tab page that will keep you inspired
+              bt a verse from the Quran every time you open a new tab that helpe
+              you achieve your "khatma" and keeps you connected with the words
+              of Allah.
+            </p>
+          </div>
+          <img
+            src="images/project-2.jpg"
+            alt="quran station extension"
+            class="projects__img"
+          />
+        </div>
+      </section>
+      <section class="clients section section--wth-bg" id="clients">
+        <h2 class="h2-heading">
+          What My <br />
+          Clients Says
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Muhammad Bdeir is a pioneering AI practitioner, distinguished for
+              his proficiency in image generation. With a keen understanding of
+              neural networks and deep learning algorithms, he harnesses these
+              technologies to craft stunning visual content. His innovative
+              approaches push the boundaries of what's possible in the realm of
+              computer-generated imagery, captivating audiences with lifelike
+              renderings and imaginative creations. Bdeir's dedication to
+              mastering image generation techniques has positioned him as a
+              trailblazer in the field, continually advancing the forefront of
+              artificial intelligence artistry.
+            </p>
+            <p class="clients__opinion">
+              In addition to his prowess in image generation, Muhammad Bdeir
+              exhibits remarkable skills in website development. Leveraging his
+              expertise in coding languages such as HTML, CSS, and JavaScript,
+              he crafts seamless and visually captivating online experiences.
+              Bdeir's websites are not merely functional; they are intuitive,
+              engaging, and reflective of his meticulous attention to detail.
+              His ability to blend aesthetics with functionality results in
+              websites that not only attract visitors but also provide them with
+              an immersive and user-friendly browsing experience.
+            </p>
+            <p class="clients__opinion">
+              Beyond his technical acumen, Muhammad Bdeir is a visionary
+              designer with a flair for creativity and innovation. Drawing
+              inspiration from various art forms and cultural influences, he
+              infuses his designs with a unique aesthetic that resonates with
+              audiences worldwide. Whether crafting logos, branding materials,
+              or multimedia presentations, Bdeir's designs consistently stand
+              out for their elegance, sophistication, and ability to convey
+              complex ideas with simplicity and clarity. His multidisciplinary
+              approach to design ensures that each project he undertakes leaves
+              a lasting impression, establishing him as a true luminary in the
+              world of visual communication.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section contact">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email
+            or chat.
+          </p>
+          <a href="mailto:muhbader70@gmail.com" class="contact__email"
+            >muhbader70@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a
+              href="https://www.facebook.com/muhammad.bader.7"
+              class="contact__social"
+              target="_blank"
+              ><img src="images/brand/facebook.svg" alt="facebook" /> </a
+            ><a
+              href="https://www.instagram.com/muhammad94/"
+              target="_blank"
+              class="contact__social"
+            >
+              <img src="images/brand/instagram.svg" alt="instagram" /></a
+            ><a href="#" class="contact__social"
+              ><img src="images/brand/github.svg" alt="github" /> </a
+            ><a
+              href="https://www.linkedin.com/in/muhammad-bader-75240b135/"
+              target="_blank"
+              class="contact__social"
+              ><img src="images/brand/LinkedIn.svg" alt="LinkedIn" /> </a
+            ><a href="#" class="contact__social"
+              ><img src="images/brand/twitter.svg" alt="twitter" /> </a
+            ><a href="#" class="contact__social"
+              ><img src="images/brand/youtube.svg" alt="youtube" />
+            </a>
+          </div>
+        </div>
+        <div class="contact__formcontent">
+          <h2 class="h2-heading">
+            let's work <br />
+            together!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+                required
+                name="fullname"
+              />
+              <input
+                class="contact__input"
+                type="tel"
+                placeholder="Phone No."
+                pattern="^(05|\+972)[0-9][0-9]{4}[0-9]{3}$"
+                required
+                name="phone"
+              />
+            </div>
+            <textarea
+              class="contact__input contact_textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button class="contact__button" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">&copy; 2024 by Muhammad Bdeir</footer>
+    </div>
+  </body>
+</html>
